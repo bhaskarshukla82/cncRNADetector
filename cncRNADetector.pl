@@ -10,7 +10,7 @@ print"Welcome to use cncRNADetector 1.0: A Bioinformatics Pipeline for Coding an
 name();
 	my $USAGE = qq(
 USAGE:
-   lncRNADetector.pl -i <transcript.fasta> -p <protein.fasta> -k <housekeeping.fasta> -s <smallRNA.fasta> -o 
+   cncRNADetector.pl -i <transcript.fasta> -p <protein.fasta> -k <housekeeping.fasta> -s <smallRNA.fasta> -o 
 <output prefix> [-t <# of thread>] [-r <minimum lncRNA length>] [-f <maximum ORF length>] [-e <E-value of alignment>]
 Options:
    -m <full/assembly/lncRNA/miRNA> select mode of pipeline 
